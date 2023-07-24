@@ -1,0 +1,109 @@
+.detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://st.depositphotos.com/1637919/2228/i/450/depositphotos_22285285-stock-photo-two-australian-shepherds-play-together.jpg");
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.detail__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.detail__name {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: rgb(18, 17, 17);
+  background-color: hsl(0, 100%, 98%);
+  padding: 5px 10px;
+  border-radius: 4px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.detail__info {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 4px;
+  margin-top: 20px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.detail__imageContainer {
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 20px;
+}
+
+.detail__image {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.detail__data {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.detail__section {
+  background-color: #ffffff;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.detail__section h3 {
+  margin-bottom: 10px;
+}
+
+.detail__section p {
+  margin: 5px 0;
+}
+
+.detail__section span {
+  font-weight: bold;
+}
+
+.detail__temperamentList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.detail__temperamentList p {
+  background-color: #f5f5f5;
+  color: #333;
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+}
+
+.detail__temperamentList p:last-child {
+  margin-right: 0;
+}
+
+.detail__loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.loading__text {
+  font-size: 18px;
+  font-weight: bold;
+}

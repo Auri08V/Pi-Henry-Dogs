@@ -1,0 +1,25 @@
+.ul_container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .li_container {
+    display: inline-block;
+    margin: 0 5px;
+  }
+  
+  .li_container button {
+    padding: 8px 12px;
+    border-radius: 4px;
+    background-color: #ccc;
+    color: #333;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .li_container button:hover {
+    background-color: #ff6b6b;
+    color: #fff;
+  }
+  

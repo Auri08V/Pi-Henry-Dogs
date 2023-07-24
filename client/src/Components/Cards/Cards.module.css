@@ -1,0 +1,31 @@
+
+.container_cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    gap: 3rem ;
+    margin-top: 2rem;
+    height: 65vh;
+    overflow-y: auto ;
+    width: 80vw;
+    /* background-color: rgba(250, 235, 215, 0.452); */
+    backdrop-filter: blur(5px) ;
+    padding: 5px;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 1rem;
+    scrollbar-width: thin; 
+    scrollbar-color: transparent transparent; 
+  }
+  .container_cards::-webkit-scrollbar {
+    width: 10px; /* Ancho de la barra de desplazamiento */
+  }
+  
+  .container_cards::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.3); /* Color de la barra de desplazamiento */
+    border-radius: 3px; /* Bordes redondeados para la barra de desplazamiento */
+  }
+  
+  .container_card {
+    width: 300px;
+  }
+  
